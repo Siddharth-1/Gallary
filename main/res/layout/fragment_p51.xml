@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".program5.P5Fragment1">
+
+    <!-- TODO: Update blank fragment layout -->
+  <RelativeLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent" >
+
+      <TextView
+          android:text="Fragment 1"
+          android:id="@+id/frag1"
+          android:layout_centerHorizontal="true"
+          android:layout_margin="10dp"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content" />
+      <com.goldenbirds.gallery.MyEditText
+          android:layout_width="match_parent"
+          android:layout_margin="10dp"
+          android:layout_below="@id/frag1"
+          android:hint="Enter some text"
+          android:id="@+id/editext1"
+          android:layout_height="wrap_content" />
+
+      <com.goldenbirds.gallery.MyButton
+          android:id="@+id/btn1"
+          android:layout_margin="10dp"
+          android:layout_below="@id/editext1"
+          android:text="Switch to Fragment 2"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content" />
+  </RelativeLayout>
+</FrameLayout>
